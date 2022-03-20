@@ -11,20 +11,17 @@
     <modules>
         <module>HotItemsAnalysis</module>
         <module>NetworkFlowAnalysis</module>
-        <module>MarketAnalysis</module>
-        <module>LoginFailDetect</module>
-        <module>OrderPayDetect</module>
     </modules>
-
+    
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-
+    
         <flink.version>1.10.1</flink.version>
         <scala.binary.version>2.12</scala.binary.version>
         <kafka.version>2.2.0</kafka.version>
     </properties>
-
+    
     <dependencies>
         <dependency>
             <groupId>org.apache.flink</groupId>
